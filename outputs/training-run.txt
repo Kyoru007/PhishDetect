@@ -1,0 +1,31 @@
+Logistic Regression: grouped CV AP=0.7861
+Random Forest: grouped CV AP=0.7927
+Gradient Boosting: grouped CV AP=0.7849
+Character TF-IDF + Logistic: grouped CV AP=0.9215
+XGBoost: grouped CV AP=0.7772
+{
+  "best_model": "Character TF-IDF + Logistic",
+  "dataset": "public_feeds_with_historical_benign",
+  "test": {
+    "precision": 0.7222222222222222,
+    "recall": 0.8125,
+    "f1": 0.7647058823529411,
+    "pr_auc_average_precision": 0.8562097292687266,
+    "roc_auc": 0.9345531798245614,
+    "brier_score": 0.04482045690342208,
+    "confusion_matrix": [
+      [
+        289,
+        15
+      ],
+      [
+        9,
+        39
+      ]
+    ],
+    "false_positive_rate": 0.049342105263157895,
+    "fpr_at_90pct_recall_descriptive": 0.29276315789473684,
+    "threshold": 0.1486074470947122
+  }
+}
+README results generated from outputs/metrics.json.

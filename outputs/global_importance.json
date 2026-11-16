@@ -1,0 +1,31 @@
+{
+  "method": "URL-component permutation (held-out AP decrease)",
+  "n_repeats": 3,
+  "features": [
+    {
+      "name": "scheme",
+      "mean_ap_decrease": 0.0,
+      "std": 0.0
+    },
+    {
+      "name": "host_and_port",
+      "mean_ap_decrease": 0.6869924897642349,
+      "std": 0.020938259823591397
+    },
+    {
+      "name": "path",
+      "mean_ap_decrease": 0.021220699419840543,
+      "std": 0.007216525131778712
+    },
+    {
+      "name": "query",
+      "mean_ap_decrease": -0.0007522374860192693,
+      "std": 0.0021316023401532144
+    },
+    {
+      "name": "fragment",
+      "mean_ap_decrease": -0.0009014761341888574,
+      "std": 0.00016977667249236118
+    }
+  ]
+}

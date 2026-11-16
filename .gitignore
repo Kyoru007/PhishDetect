@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+data/cache/
+data/urls.csv
+models/
+.env
+.tmp/
+outputs/test_predictions.csv
+outputs/errors.csv
+outputs/split_assignments.csv

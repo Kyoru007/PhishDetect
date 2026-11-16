@@ -1,0 +1,25 @@
+{
+  "transport": "FastAPI TestClient",
+  "screens": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "theme": "dark",
+      "verdict": "PHISHING RISK",
+      "rendered_score": "27.4%",
+      "console_errors": [],
+      "horizontal_overflow": false
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "theme": "light",
+      "verdict": "PHISHING RISK",
+      "rendered_score": "27.4%",
+      "console_errors": [],
+      "horizontal_overflow": false
+    }
+  ],
+  "browser_version": "136.0.7103.25",
+  "dataset_sha256": "95a2c627d99fb4a4aaab79171e7c4d346e59f9355b731469f4f0277ee0de41b0"
+}

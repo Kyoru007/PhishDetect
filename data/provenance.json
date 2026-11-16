@@ -1,0 +1,49 @@
+{
+  "mode": "public_feeds_with_historical_benign",
+  "rows": 1800,
+  "per_class": null,
+  "class_counts": {
+    "0": 1500,
+    "1": 300
+  },
+  "source_counts": {
+    "historical_good_labels": 1200,
+    "openphish_or_phishtank": 300,
+    "tranco": 300
+  },
+  "url_shape_summary": {
+    "0": {
+      "rows": 1500,
+      "deep_paths": 924,
+      "query_strings": 141
+    },
+    "1": {
+      "rows": 300,
+      "deep_paths": 103,
+      "query_strings": 9
+    }
+  },
+  "excluded_diagnostic_domains": [
+    "westeros.org",
+    "youtube.com"
+  ],
+  "built_at_utc": "2026-11-16T10:40:07.320219+00:00",
+  "source_endpoints": {
+    "openphish": "https://openphish.com/feed.txt",
+    "tranco": "https://tranco-list.eu/top-1m.csv.zip",
+    "historical_benign": "https://raw.githubusercontent.com/faizann24/Using-machine-learning-to-detect-malicious-URLs/master/data/data.csv"
+  },
+  "source_sha256": {
+    "openphish": "ff4648276c46e8a63ed92f82690fe053d65981b4a91b7a1219b54eb805634b0e",
+    "tranco": "e3ec5c22b344256766a3d0f917e747a554192086bddd22f24dd148a521228100",
+    "historical_benign": "3243f054f5205e352f7a9adc2d7b993d516acd4ad17cb032b91c989138e34808"
+  },
+  "fallback_reason": null,
+  "source_cache_modified_utc": {
+    "legacy_urls": "2026-11-16T10:34:57.556732+00:00",
+    "openphish": "2026-11-13T17:09:46.592497+00:00",
+    "tranco": "2026-11-13T17:09:56.012992+00:00"
+  },
+  "dataset_sha256": "95a2c627d99fb4a4aaab79171e7c4d346e59f9355b731469f4f0277ee0de41b0",
+  "label_caveat": "Tranco roots are weak negatives. Historical good labels are inherited, old and not live-verified; no candidate URL is fetched."
+}

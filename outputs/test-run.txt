@@ -1,0 +1,12 @@
+............................                                             [100%]
+============================== warnings summary ===============================
+tests/test_api.py::test_api
+  D:\AI project\src\phishdetect\dataset.py:98: UserWarning: SYNTHETIC FALLBACK: Synthetic mode explicitly requested. Scores are NOT real-world accuracy.
+    warnings.warn(f'SYNTHETIC FALLBACK: {reason}. Scores are NOT real-world accuracy.')
+
+tests/test_dataset.py::test_cached_source_and_offline_fallback
+  D:\AI project\src\phishdetect\dataset.py:98: UserWarning: SYNTHETIC FALLBACK: Network disabled for test. Scores are NOT real-world accuracy.
+    warnings.warn(f'SYNTHETIC FALLBACK: {reason}. Scores are NOT real-world accuracy.')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+28 passed, 2 warnings in 3.71s

@@ -1,0 +1,2 @@
+# Extra comparison model. Core pipeline works without it.
+xgboost==3.0.2

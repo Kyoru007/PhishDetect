@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-11-16T10:43:18.261074+00:00",
+  "dataset_mode": "public_feeds_with_historical_benign",
+  "dataset_sha256": "95a2c627d99fb4a4aaab79171e7c4d346e59f9355b731469f4f0277ee0de41b0",
+  "representation": "scheme_neutral_v1",
+  "pytest": "28 passed, 2 expected synthetic-fallback warnings",
+  "readme_metrics_consistent": true,
+  "dependency_check": "No broken requirements found",
+  "regression_examples": "Both below threshold; entire domains excluded from dataset; API and CLI scores match",
+  "ui_transport": "FastAPI TestClient",
+  "ui_desktop_mobile": "Rendered; no JavaScript errors or horizontal overflow",
+  "tcp_server": "Not verified in execution sandbox; restart Start_PhishDetect.cmd to load the revised model",
+  "docker": "Not verified: daemon not running at prior check",
+  "git_commits": "Blocked at prior attempt: .git index writes denied",
+  "make": "Not installed at prior check; Python task runner used",
+  "phishtank_live": "Not run: no API key; fixture ingestion passed"
+}
